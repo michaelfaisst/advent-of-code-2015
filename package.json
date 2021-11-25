@@ -1,0 +1,24 @@
+{
+  "name": "advent-of-code-2015",
+  "version": "1.0.0",
+  "description": "Solutions for Advent of Code 2015",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelfaisst/advent-of-code-2015.git"
+  },
+  "author": "Michael Faißt <michael@codenite.at>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelfaisst/advent-of-code-2015/issues"
+  },
+  "homepage": "https://github.com/michaelfaisst/advent-of-code-2015#readme",
+  "scripts": {
+    "day1": "ts-node day1/index.ts",
+    "day2": "ts-node day2/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
